@@ -31,4 +31,4 @@
 
 ## Canlı bağlantı
 
-[KentLab canlı uygulaması](https://kentlab-iyilestirme-panosu.chummyeft9.chatgpt.site)
+[KentLab canlı uygulaması](https://kentlab-iyilestirme-panosu.netlify.app)

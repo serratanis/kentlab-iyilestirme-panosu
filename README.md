@@ -2,7 +2,7 @@
 
 Mahallelerden gelen iyileştirme fikirlerini görünür, ölçülebilir ve takip edilebilir hale getiren modern bir React uygulaması.
 
-**Canlı demo:** [kentlab-iyilestirme-panosu.chummyeft9.chatgpt.site](https://kentlab-iyilestirme-panosu.chummyeft9.chatgpt.site)
+**Canlı demo:** [kentlab-iyilestirme-panosu.netlify.app](https://kentlab-iyilestirme-panosu.netlify.app)
 
 ## Neden bu proje?
 
