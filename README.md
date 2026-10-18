@@ -1,55 +1,56 @@
-# KentLab — Kent İyileştirme Panosu
+# KentLab - Kent İyileştirme Panosu
 
-Mahallelerden gelen iyileştirme fikirlerini görünür, ölçülebilir ve takip edilebilir hale getiren modern bir React uygulaması.
+<p align="center">
+  <strong>Mahalle fikirlerini görünür, ölçülebilir ve takip edilebilir hale getiren modern bir React uygulaması.</strong>
+</p>
 
-**Canlı demo:** [kentlab-iyilestirme-panosu.netlify.app](https://kentlab-iyilestirme-panosu.netlify.app)
+<p align="center">
+  <a href="https://kentlab-iyilestirme-panosu.netlify.app"><img alt="Canlı Demo" src="https://img.shields.io/badge/Canlı_Demo-Netlify-00C7B7?logo=netlify&logoColor=white"></a>
+  <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111827">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white">
+  <img alt="Tests" src="https://img.shields.io/badge/Test-Vitest-6E9F18?logo=vitest&logoColor=white">
+</p>
 
-## Neden bu proje?
+Kentlerde iyi fikirler çoğu zaman mesajlar ve belgeler arasında kaybolur. KentLab; önerileri tek yerde toplar, önceliklendirir, ilerleme durumunu izler ve beklenen etkiyi karar vericiler için anlaşılır bir özete dönüştürür.
 
-Kentlerde iyi fikirler çoğu zaman farklı mesajlarda veya belgelerde kaybolur. KentLab; fikirleri tek yerde toplar, önceliklendirir, durumlarını izler ve beklenen etkiyi karar vericiler için anlaşılır bir özete dönüştürür.
+<p align="center">
+  <a href="https://kentlab-iyilestirme-panosu.netlify.app"><strong>Canlı uygulamayı aç</strong></a>
+  ·
+  <a href="docs/KentLab-4-Ekran-Goruntusu.pdf"><strong>4 ekranlık proje dosyası</strong></a>
+</p>
 
-## Öne çıkan özellikler
+![KentLab genel bakış](screenshots/01-genel-bakis.png)
 
-- Yeni fikir ekleme
-- Tüm fikirleri kart yapısında listeleme
-- Mevcut fikirleri güncelleme
+## Neler yapabilirsiniz?
+
+- Yeni kent fikri ekleme
+- Kayıtları kart yapısında listeleme
+- Mevcut fikri güncelleme
 - Onay adımıyla güvenli silme
 - Metin, kategori ve durum filtresi
 - Canlı özet metrikleri ve etki puanı
-- Tarayıcıda kalıcı kayıt (LocalStorage)
-- Form doğrulama, klavye odağı ve erişilebilir etiketler
-- Masaüstü, tablet ve mobil ekranlara uyumlu tasarım
+- LocalStorage ile tarayıcıda kalıcı kayıt
+- Klavye odağı, erişilebilir etiketler ve form doğrulama
+- Masaüstü, tablet ve mobil uyumlu kullanım
 
-## Kullanılan teknolojiler
+## Uygulama galerisi
 
-- React 19
-- TypeScript
-- Vite
-- Pure CSS
-- LocalStorage
-- Vitest
+<p align="center">
+  <img src="screenshots/02-fikir-panosu.png" alt="KentLab fikir panosu" width="49%">
+  <img src="screenshots/03-kayit-gorunumu.png" alt="KentLab kayıt görünümü" width="49%">
+</p>
 
-## Yerel çalıştırma
+<p align="center">
+  <img src="screenshots/04-yeni-fikir-formu.png" alt="KentLab yeni fikir formu" width="72%">
+</p>
 
-```bash
-npm install
-npm run dev
-```
+## Teknoloji ve mimari
 
-Tarayıcıda terminalde gösterilen yerel adresi açın. Üretim çıktısı için:
-
-```bash
-npm run build
-npm run preview
-```
-
-Testler:
-
-```bash
-npm test
-```
-
-## Proje yapısı
+- React 19 + TypeScript
+- Vite üretim derlemesi
+- Pure CSS tasarım sistemi
+- LocalStorage veri katmanı
+- Vitest otomatik testleri
 
 ```text
 src/
@@ -60,18 +61,20 @@ src/
 └── utils/        Filtreleme, metrik ve depolama yardımcıları
 ```
 
-## Veri gizliliği
+## Yerel çalıştırma
 
-Kayıtlar herhangi bir sunucuya gönderilmez. Yalnızca kullanılan tarayıcının LocalStorage alanında tutulur.
+```bash
+npm install
+npm run dev
+```
 
-## Ekran görüntüsü
+Kalite kontrolleri:
 
-![KentLab ana ekranı](screenshots/kentlab-ana-ekran.png)
+```bash
+npm test
+npm run build
+```
 
-## Eğitim yönergesi uyumu
+## Gizlilik ve yönerge uyumu
 
-React kullanımı, CRUD işlemleri, klasör mimarisi, CSS, LocalStorage, ekran görüntüsü ve yayınlanabilir üretim çıktısı dahil tüm maddeler `docs/YONERGE-UYUMU.md` dosyasında eşleştirilmiştir.
-
-## Proje sunumu için kısa anlatım
-
-Sorun, çözüm, kullanıcı akışı ve teknik kararları içeren hazır anlatım `docs/PROJE-OZETI.md` dosyasındadır.
+Kayıtlar bir sunucuya gönderilmez; yalnızca kullanılan tarayıcının LocalStorage alanında tutulur. React kullanımı, CRUD işlemleri, klasör mimarisi, CSS, LocalStorage, ekran görüntüsü ve yayınlanabilir üretim çıktısı `docs/YONERGE-UYUMU.md` içinde birebir eşleştirilmiştir.
